@@ -8,6 +8,8 @@ node_modules
 
 # Build generated files
 packages
+utils.js
+index.js
 
 # NPM
 package-lock.json
