@@ -1,0 +1,30 @@
+{
+  "name": "fa-package-creator",
+  "version": "1.0.0",
+  "license": "ISC",
+  "description": "Font Awesome's SVG with JS packages creator",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "utils.js"
+  ],
+  "author": "Timothy Myagi <timofei.magi@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/t1mofe1/fa-package-creator/issues"
+  },
+  "homepage": "https://github.com/t1mofe1/fa-package-creator/#readme",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t1mofe1/fa-package-creator.git"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.2.11"
+  },
+  "devDependencies": {
+    "@types/graceful-fs": "^4.1.6",
+    "typescript": "^5.0.2"
+  }
+}
